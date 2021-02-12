@@ -1,0 +1,55 @@
+{
+    "name": "credit-card",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "react": "*",
+        "react-dom": "*",
+        "react-hook-form": "*",
+        "react-scripts": "^4.0.2",
+        "react-tooltip": "^4.2.13",
+        "react-transition-group": "*",
+        "rxjs": "*",
+        "sass": "*",
+        "typescript": "*"
+    },
+    "scripts": {
+        "start": "BROWSER=firefox PORT=3009 react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@types/node": "*",
+        "@types/react": "*",
+        "@types/react-dom": "*",
+        "@types/react-tooltip": "^4.2.4",
+        "@types/react-transition-group": "*",
+        "@types/sass": "*",
+        "@typescript-eslint/eslint-plugin": "^4.14.2",
+        "@typescript-eslint/parser": "^4.14.2",
+        "eslint": "*",
+        "eslint-config-airbnb": "*",
+        "eslint-plugin-import": "*",
+        "eslint-plugin-jsx-a11y": "*",
+        "eslint-plugin-react": "^7.22.0",
+        "eslint-plugin-react-hooks": "*"
+    }
+}

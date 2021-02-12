@@ -1,0 +1,36 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif, Helvetica, Arial;
+    font-size: 10px; // 1rem==10px
+    color: #444;
+    line-height: 1.5em;
+}
+
+// ----- anchor ------
+a,
+a:visited {
+    color: #4d9cff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3790ff;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #3790ff;
+    text-decoration: underline;
+}
